@@ -1,1 +1,47 @@
-{}
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "suitability": {
+          "title": "Suitability",
+          "$ref": "#/definitions/Suitability",
+          "description": "Information the suitability of the tender for different types of tenderer."
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "suitability": {
+          "title": "Suitability",
+          "$ref": "#/definitions/Suitability",
+          "description": "Information the suitability of the lot for different types of tenderer."
+        }
+      }
+    },
+    "LotGroup": {
+      "properties": {
+        "suitability": {
+          "title": "Suitability",
+          "$ref": "#/definitions/Suitability",
+          "description": "Information the suitability of the lot group for different types of tenderer."
+        }
+      }
+    },
+    "Suitability": {
+      "title": "Suitability",
+      "type": "object",
+      "description": "Information about the suitability of tenders, lots and lot groups for different types of tenderer.",
+      "properties": {
+        "sme": {
+          "title": "Small and medium enterprises",
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether the tender, lot or lot group is suitable for small and medium enterprises."
+        }
+      },
+      "minProperties": 1
+    }
+  }
+}
