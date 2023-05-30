@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "OCDS Suitability Extension"
+    "en": "Suitability"
   },
   "description": {
     "en": " Adds a suitability object to tenders, lots and lot groups."
