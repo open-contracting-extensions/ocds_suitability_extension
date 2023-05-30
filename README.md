@@ -1,4 +1,4 @@
-# OCDS Suitability Extension
+# Suitability
 
 Adds a suitability object to tenders, lots and lot groups to describe suitability for different types of tenderer.
 
