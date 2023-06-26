@@ -29,16 +29,16 @@
     },
     "Suitability": {
       "title": "Suitability",
-      "type": "object",
       "description": "Information about the suitability of tenders, lots and lot groups for different types of tenderer.",
+      "type": "object",
       "properties": {
         "sme": {
           "title": "Small and medium enterprises",
+          "description": "Whether the tender, lot or lot group is suitable for small and medium enterprises.",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the tender, lot or lot group is suitable for small and medium enterprises."
+          ]
         }
       },
       "minProperties": 1
