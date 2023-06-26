@@ -4,8 +4,8 @@
       "properties": {
         "suitability": {
           "title": "Suitability",
-          "$ref": "#/definitions/Suitability",
-          "description": "Information about the suitability of the tender for different types of tenderer."
+          "description": "Information about the suitability of the tender for different types of tenderer.",
+          "$ref": "#/definitions/Suitability"
         }
       }
     },
@@ -13,8 +13,8 @@
       "properties": {
         "suitability": {
           "title": "Suitability",
-          "$ref": "#/definitions/Suitability",
-          "description": "Information about the suitability of the lot for different types of tenderer."
+          "description": "Information about the suitability of the lot for different types of tenderer.",
+          "$ref": "#/definitions/Suitability"
         }
       }
     },
@@ -22,8 +22,8 @@
       "properties": {
         "suitability": {
           "title": "Suitability",
-          "$ref": "#/definitions/Suitability",
-          "description": "Information about the suitability of the lot group for different types of tenderer."
+          "description": "Information about the suitability of the lot group for different types of tenderer.",
+          "$ref": "#/definitions/Suitability"
         }
       }
     },
