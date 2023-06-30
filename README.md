@@ -1,12 +1,14 @@
 # Suitability
 
-Adds a suitability object to tenders, lots and lot groups to describe suitability for different types of tenderer.
+Adds a suitability object to the tender, lot and lot group objects to describe their suitability to different types of tenderers.
+
+# Guidance
 
 If you are using the [Lots extension](https://extensions.open-contracting.org/en/extensions/lots/master/), [follow its guidance](https://extensions.open-contracting.org/en/extensions/lots/master/#usage) on whether to use `tender.lots` fields or `tender` fields.
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-726 (Suitable For SMEs)](https://github.com/eForms/eForms). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/).
+In the European Union, this extension's fields correspond to [eForms BT-726 (Suitable For SMEs)](https://github.com/eForms/eForms). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/).
 
 ## Examples
 

@@ -4,7 +4,7 @@
       "properties": {
         "suitability": {
           "title": "Suitability",
-          "description": "Information about the suitability of the tender for different types of tenderer.",
+          "description": "Information about the suitability of the contracting process to different types of tenderers.",
           "$ref": "#/definitions/Suitability"
         }
       }
@@ -13,7 +13,7 @@
       "properties": {
         "suitability": {
           "title": "Suitability",
-          "description": "Information about the suitability of the lot for different types of tenderer.",
+          "description": "Information about the suitability of the lot to different types of tenderers.",
           "$ref": "#/definitions/Suitability"
         }
       }
@@ -22,19 +22,19 @@
       "properties": {
         "suitability": {
           "title": "Suitability",
-          "description": "Information about the suitability of the lot group for different types of tenderer.",
+          "description": "Information about the suitability of the lot group to different types of tenderers.",
           "$ref": "#/definitions/Suitability"
         }
       }
     },
     "Suitability": {
       "title": "Suitability",
-      "description": "Information about the suitability of tenders, lots and lot groups for different types of tenderer.",
+      "description": "Information about the suitability of a contracting process, lot or lot group to different types of tenderers.",
       "type": "object",
       "properties": {
         "sme": {
           "title": "Small and medium enterprises",
-          "description": "Whether the tender, lot or lot group is suitable for small and medium enterprises.",
+          "description": "Whether the contracting process, lot or lot group is suitable to small and medium enterprises.",
           "type": [
             "boolean",
             "null"

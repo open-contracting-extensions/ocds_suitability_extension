@@ -3,7 +3,7 @@
     "en": "Suitability"
   },
   "description": {
-    "en": " Adds a suitability object to tenders, lots and lot groups."
+    "en": "Adds a suitability object to the tender, lot and lot group objects to describe their suitability to different types of tenderers."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_suitability_extension"
